@@ -1,0 +1,6 @@
+Question 7
+        7)
+Add to the previous program to create two separate 2D matrices: one with the top 20% of candidates (by total marks), and another with the bottom 40% of candidates (by total marks). Use ceil() to determine number of rows in each case. You can create these as sub-lists of the above sorted matrix. For convenience, call the 3 matrices as OverallM, top20pM, and bot40pM respectively. Print these sorted list onto separate files in csv format.
+(Output filenames: top20pM : "top20.csv", bot40pM : "bot40.csv")
+What you are expected to learn: quick ways to make sub-lists from lists, using csv writer
+      

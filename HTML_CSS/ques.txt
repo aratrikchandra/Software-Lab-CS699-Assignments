@@ -1,0 +1,41 @@
+        HTML, CSS, Javascript, Bootstrap
+Here you are going to create a fancy webpage about yourself with the requirements given below and host it in the students info (https://www.cse.iitb.ac.in/people/students.php) page of the department. Make it as attractive as you can.
+
+HTML Requirements (3 Mandatory and 2 Optional):
+Should have a navigation bar with 5 mandatory [Home, Projects, Hobbies, Education, Feedback] links and should redirect to respective pages. For optional tasks submit empty files. Make use of class and id selectors. As per instructions below.
+
+Note: There is no partial markings available. So, please follow the requirements carefully before submitting. If id’s are not used then it wont be graded. Use the id in given tag, not in a div.
+
+All Web Pages should have a title. Example Home for index page etc.[1.5]
+Home page: (should be written in index.html)
+A descriptive introduction of yours  (keep in mind this is your first impression and you would want it to be good) [using paragraph tag in html with id=desc, minimum 150 words, also use inline css in same paragraph tag to make font size to 11pt]  [1]
+At least one image should be embed(preferably yours) [image id = “myimage” with title as your name] [0.5 + 0.5]
+An introduction Video should be embedded  [about yourself, length should be at least 1 minute]. It's the best way for your friends to know about you. So be creative and expressive. [use video tag with id = “myvideo”] [1]
+A ​contact me field with some of your social media profile links [hopefully, that can be used for better reach by your colleagues], if you don’t want to put social media links at least put your LinkedIn and ​git  profile link [links should redirect to a new tab/window]. All platform links should be in a division.[div id contact-me] [0.5 + 0.5]
+In Projects page: (should be written in projects.html)[Use Internal CSS change font style of class project]
+Ordered list/ Bulleted list of projects you have done. With short description and link(If Available) [Ordered list id = projects minimum 2 projects(if none then add dummy text) and use external css to style this page] [1]
+In Education page: (should be written in education.html)
+A table of your academic record. [ Table id = education , from 10th class, use internal css in this page to style it] [1]
+In Hobbies page: (should be written in hobbies.html)(Optional)
+Use checkboxes to give the option to choose hobbies and a “learn more” button.
+Clicking on “learn more”, a description of all selected hobbies should appear on the webpage. [Hint: Use java script for this]
+In Feedback page: (should be written in feedback.html)(Optional)
+Have a form with text fields name, contact number and feedback with a submit button. When the submit button is clicked a text in the form of  “Thank you {name},{contact no} for your valuable feedback” should be displayed on the same page in a heading with id=’feedback’.[javascript function name = ‘submitFeedback’]
+CSS Requirements:
+Try all ways to insert CSS:
+Internal [0.5]
+External (named as style.css) [0.5]
+Inline [0.5]
+Change background and font colors
+Play around with font sizes and family
+Overall Page look: [1]
+
+
+Javascript Requirements(Optional):
+In the Hobbies, clicking on submit a popup should take confirmation from the user showing
+all selected hobbies. (Use JavaScript events).
+Form submission should display the name of the user.
+
+
+The question that you need to ask yourself is whether your webpage renders the same on mobile / tablet as it does on PC. Does it? Maybe not. Try adding ​Bootstrap​ to your page so that it renders the same everywhere.
+      

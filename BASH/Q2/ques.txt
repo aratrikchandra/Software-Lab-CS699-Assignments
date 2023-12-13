@@ -1,0 +1,2 @@
+        Script get-ip.sh to get the IP address of your machine. Only your machine IP address, not other IP addresses.
+      

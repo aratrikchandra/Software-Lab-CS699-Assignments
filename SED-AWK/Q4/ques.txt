@@ -1,0 +1,32 @@
+Question 4
+        Write an awk script for the McDonald rhyme. Your output should be the same as the mcdonald.sh case, including spacings and the last line ending the rhyme.
+
+For Example:
+
+Input is:
+            pig:oink
+            cow:moo
+            dog:bow
+
+Output is:
+            Old McDonald had a farm ei-ei-o
+            On that farm he had a pig ei-ei-o
+            With a oink-oink here, oink-oink there
+            Here a oink there a oink, everywhere oink-oink
+
+            Old McDonald had a farm ei-ei-o
+            On that farm he had a cow ei-ei-o
+            With a moo-moo here, moo-moo there
+            Here a moo there a moo, everywhere moo-moo
+
+            Old McDonald had a farm ei-ei-o
+            On that farm he had a dog ei-ei-o
+            With a bow-bow here, bow-bow there
+            Here a bow there a bow, everywhere bow-bow
+
+            Old McDonald had a farm ei-ei-o
+
+
+To run the script:
+        ./mcdonald.awk input.txt
+      

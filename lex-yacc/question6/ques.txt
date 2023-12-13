@@ -1,0 +1,6 @@
+        calc.l, calc.y (Update previous files) Add support for simple decimal representation floating point numbers in your calculator.
+What you learn: making yylval a union of possible types.
+
+calc.l, calc.y (Update previous files) Add support for identifier based variables in your calculator, and assignment statements for and using variables.
+What you learn: making yylval a union of possible types, maintaining a symbol table.
+      

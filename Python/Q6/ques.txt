@@ -1,0 +1,5 @@
+Question 6
+        6)
+Modify the previous program to store an extra column in each row, which is the total marks obtained by the candidate (count "NA" as 0 marks). Then sort the list-of-lists by the total marks obtained by each candidate. Print this sorted list onto a new file in csv format named as "output.csv".
+What you are expected to learn: sorting a list using the "sort" command, and using a lambda function to specify the key, using csv writer
+      

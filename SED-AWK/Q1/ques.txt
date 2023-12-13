@@ -1,0 +1,34 @@
+Question 1
+        Use sed commands to do this exercise. If you are not using the sed command to do this you will get zero marks.
+
+Write a bash script(mcdonald.sh) which prints McDonald rhymes. As stdin input, a sequence of lines, of animal:sound is given. And out comes the rhyme. You may have to use the 'cut' command, and of course a loop to read through the input and print.
+
+For Example:
+
+Input is:
+            pig:oink
+            cow:moo
+            dog:bow
+
+Output is:
+            Old McDonald had a farm ei-ei-o
+            On that farm he had a pig ei-ei-o
+            With a oink-oink here, oink-oink there
+            Here a oink there a oink, everywhere oink-oink
+
+            Old McDonald had a farm ei-ei-o
+            On that farm he had a cow ei-ei-o
+            With a moo-moo here, moo-moo there
+            Here a moo there a moo, everywhere moo-moo
+
+            Old McDonald had a farm ei-ei-o
+            On that farm he had a dog ei-ei-o
+            With a bow-bow here, bow-bow there
+            Here a bow there a bow, everywhere bow-bow
+
+            Old McDonald had a farm ei-ei-o
+
+
+To run the script:
+        ./mcdonald.sh < input.txt
+      

@@ -1,0 +1,4 @@
+        calc.l, calc.y Write the lex file and the yacc grammar for an expression calculator. You need to deal with only '+' and only integers.
+
+What you learn: yacc syntax, using lex and yacc together
+      

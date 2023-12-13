@@ -1,0 +1,5 @@
+Question 4
+        4)
+Modify the previous program to make another 2D matrix. This should consist of the rows corresponding to only the selected candidates. Use the filter function to achieve this. Print this list of lists and then print the total number of selected candidates by using "len" on this 2D matrix.
+What you are expected to learn: using filter on a list
+      

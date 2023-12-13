@@ -1,0 +1,21 @@
+        Don't use the pdf file. Instead check this document for updated question: 
+https://docs.google.com/document/d/e/2PACX-1vS_5mhrvNcd674RpVn666kiu5SB-uDUi6IvbxMbspVKpEXJCYPwBrermNVSpQOYgKBupuwgI9NZ5X7m/pub
+
+Do not copy this program from somewhere or from some friend: you should write it yourself.
+In multiplication.c create a function called mul with following properties:
+- Expects two integers parameters and returns the multiplication of the integers.
+- return multiplication of numbers
+In addition.c create a function called sum with following properties:
+- Expects two integer parameters and returns the sum of integers.
+- return addition of numbers
+Now create a header file “customFunction.h” and declare both your functions.
+Now create a programEntry.c:
+- print “Running programEntry.c”
+- call mul and sum functions created by you with parameters passed as 7 and 8
+After creating all 4 files. You have to create a MakeFile  :
+-  Write one rule for compiling each file that is multiplication.c, additional.c and main.c. That means 3 rules for compiling these 3 files. 
+- Now Make another rule to use objects files to create a final executable named programEntry.
+- Make another rule named “clean” rule to remove all object files and executable.
+Modify one or more of the source files or header files and check that running "make" executes only the necessary commands. Do this for multiple scenarios (modify different sets of files each time).
+Learn to use the "touch" command to "pretend" to have modified a file. This is sometimes useful to force recompilation without actually modifying the source file(s).
+      

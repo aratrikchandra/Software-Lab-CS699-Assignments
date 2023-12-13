@@ -1,0 +1,10 @@
+        photo-rename.sh Write a bash script called photo-rename.sh. Which creates one directory called “output”. And copy all the files of the form ddmmyyyyANY.jpg present in the given directory. Also, rename that file name format to yyyy-mm-dd-ANY.jpg Here, 'dd', 'mm', 'yyyy' correspond to the two-digit date, two-digit month, and four-digit year when the photo was taken, and 'ANY' corresponds to any string (including the empty string). The first three fields consist only of digits 0 to 9. 
+
+1.	Your script should ignore jpg files which are not of the form ddmmyyyyANY.jpg.
+2.	Your script should take the directory name as an argument; if no argument is given, it must print the usage and exit with exit value 1. (message should be “Usage: photo-rename.sh path”)
+3.	If the given argument does not correspond to a directory, the script must exit with exit value 2. (message should be “Directory does not exist.”)
+
+Assumption:- Every month has 31 days.
+
+*Autograder is case sensitive so the message should be the same otherwise you will get zero marks.
+      

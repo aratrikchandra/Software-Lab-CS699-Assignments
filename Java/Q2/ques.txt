@@ -1,0 +1,6 @@
+Question 2
+        Identify classes which implement the java.lang.Comparable interface and name any 3 of them. 
+You are given a file named "Solution.java" Write java code to create a file named it as "output.txt" and write your answer to it
+write your answer in below format :
+Class1,Class2,Class3
+      

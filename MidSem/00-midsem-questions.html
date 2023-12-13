@@ -1,0 +1,105 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html> <head>
+<title>CS699 MidSem</title>
+<style>
+ol.a
+{
+list-style-type:lower-alpha;
+}
+h2
+{
+color:red;
+}
+h3 {color:blue;}
+table {border:solid;}
+td {border:solid;}
+.em { color:red; font-weight:bold }
+</style>
+</head>
+
+<body>
+
+<h1>CS699 MidSem, 20 marks, 11am-1pm Fri 16 Sep 2022</h1>
+
+<h2>General Instructions</h2>
+
+<ol>
+  <li><span class="em">Seating:</span> Make sure you are sitting in
+      your designated seating.
+  </li>
+  <li><span class="em">Lab machine local login:</span> You are
+      supposed to use a lab machine for this exam, you are supposed
+  to use the local login provided.  If you are
+  using your CSE login or any other login, logout immediately and
+  login as the given local login.
+  </li>
+  <li><span class="em">Non use of nautilus windows:</span> You are supposed to be viewing this file, after a download+save,
+  and a command-line tar command on the tgz.  If you have open using
+  double-click window-interface file extraction, you may lose your files!
+  </li>
+  <li><span class="em">Periodic save:</span> In any editor you use for writing your anwsers, make sure to save your
+      work periodically: every half to one minute.
+  </li>
+  <li><span class="em">Script templates:</span> For each question, a
+  script template is provided.  The beginning of this template
+  specifies the question in detail.  To answer, you should edit the
+  bash script template file only between the lines
+  marked START and END: you should NOT edit before the START line or
+  after the END line.  You will get <span class="em">-2 marks</span>
+  if you edit anywhere other than the specified portion.
+  </li>
+  <li><span class="em">Test scripts:</span> For each question, I've provided also a test script, which will
+  generate one or more simple test cases for your answer script.  Note
+  that these test cases are <span class="em">not necessarily
+  complete</span>.  That is, you may not get full marks even if the
+  test cases run successfully.  It is best to check the specification
+  of each question carefully, in addition to running the test scripts.
+  </li>
+  <li><span class="em">Supplementary files:</span> Some questions have
+  supplementary files involved.  This should be clear on reading the
+  question.
+  </li>
+  <li><span class="em">Hints:</span> Many questions carry hints.  Be
+  sure to read them carefully.
+  </li>
+</ol>
+
+<h2>The Questions</h2>
+
+<p>The questions are all specified in detail within each template
+file.</p>
+
+<ul>
+  <li><span class="em">Question-0:</span>
+      <ol class="a">
+        <li>Read the above instructions CAREFULLY.
+	</li>
+	<li>Read the above instructions carefully AGAIN.
+	</li>
+	<li>Read the above instructions carefully A THIRD TIME.
+	</li>
+      </ol>
+  </li>
+  <li><span class="em">Question-1: get-c-files-with-main.sh [3 marks]</span>
+      In the current directory, determine which C files have a "main"
+      function definition.
+  </li>
+  <li><span class="em">Question-2: included-files.sh [6 marks]</span>
+      Script to print the set of files included from within a C file.
+  </li>
+  <li><span class="em">Question-3: marks-count.awk [5 marks]</span>
+      AWK script to separately count the +ve and -ve marks of
+      students, from an input CSV file.
+  </li>
+  <li><span class="em">Question-4: top3-neg.sh [4 marks]</span>
+      Given the marks-count.awk output, determine top 3 students with
+      most negative marks.
+  </li>
+  <li><span class="em">Question-5: Makefile [2 marks]</span>
+    Write the dependence from marksX.csv to marksX.top3neg
+  </li>
+</ul>
+
+<hr />
+<address>Bhaskaran Raman</address>
+</body> </html>

@@ -1,0 +1,11 @@
+Question 1
+        Identify the interfaces implemented by java.lang.String.
+Write a java code in file "Solution.java" to create a new file named as "output.txt" and write your answer to it.
+write each interface in new line 
+Example : 
+Interface1
+Interface2
+
+so on 
+Give a newline after your last interface
+      

@@ -1,0 +1,37 @@
+#!/bin/bash
+
+# This bash script should take exactly 1 argument, which is a number
+# representing time in seconds (denote this by T).  It should then
+# list, in the current directory, all files whose date of modification
+# is more recent than (now - T).  That is they have been modified
+# within the last T seconds.  For instance "/path/to/recent.sh 300"
+# will list the files modified within the last 5 minutes in the
+# current directory.
+
+# If given incorrect number of arguments, it must print an error
+# message onto STDERR (and print nothing to STDOUT) and exit with exit
+# value of 1.
+
+# Marking: 5 marks
+# 1 mark for printing error message to STDERR on wrong number of args
+# 1 mark for exiting with the correct exit value on wrong num of args
+# 2 marks for correct listing of files within the last "T" seconds, T as given in the argument
+# 1 mark if it works even for files with spaces in its name
+
+# Hint: you can use the 'date' command to get the current time in a
+# certain format; you can also get 'ls' to give the modification
+# timestamp in a certain desired format
+
+# BEGIN_YOUR_CODE
+if [ "$#" -ne 1 ]; then
+    echo "number of arguments is incorrect" >&2
+    exit 1
+fi
+
+Time=$1
+
+find . -type f -newermt "$(date -d "@$(($(date +%s)-Time))" "+%Y-%m-%d %H:%M:%S")" -print0 | while read -d $'\0' filename; do
+    echo ${filename:2}
+done
+
+# END_YOUR_CODE

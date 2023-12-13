@@ -1,0 +1,3 @@
+Question 5
+        Now in file Parse3.java copy the previous code and change ONLY the implementation of the compareTo method of the before-mentioned Comparable interface. Make the change so as to achieve printing of the log entries of a particular node id in order of increasing timestamps (instead of increasing log entry number). NO OTHER part of your code should be changed to achieve this.
+      

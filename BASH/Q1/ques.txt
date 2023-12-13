@@ -1,0 +1,8 @@
+        1. Simple sequence of commands, simple if-then-else:
+   1. tex2pdf.sh Script to generate pdf from latex file(in folder sampleTex/texample.tex), and tar the entire directory named “tex2pdf.tar.gz”.
+Hint: Use “latex file_name” to generate a dvi file from a tex file. Now generate a pdf from this dvi file.
+   2. tex2pdf-a.sh Script to generate pdf from latex file(in folder sampleTex/texample.tex) in folder sampleTex , and tar the sampleTex directory  named as “tex2pdf-a.tar.gz”.
+   3. tex2pdf-b.sh Script to generate pdf from latex file(in folder sampleTex/texample.tex) in folder sampleTex , and tar the sampleTex directory named as “tex2pdf-b.tar.gz”., Check latex compilation success. If successful then print “success” else print “fail”.
+Hint: Learn the use of the special shell variable "$?". 
+Hint: To learn more about tools use –help, Example latex –help
+      

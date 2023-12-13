@@ -1,0 +1,34 @@
+Question 3
+        Write a python code to plot a graph using the data present in the file “pip-channel-hop.txt”. 
+Note: Follow the below instructions when plotting the graph. Please do not do anything extra apart from the instructions mentioned below.
+
+
+1. Set a figure size of 8,6
+2. Plot the bar graphs for the columns Without-Hopping and With-Hopping whereas a line graph for Without-Interference in the mentioned order.
+3. Use the PktGap column as the x-axis.
+4. For the bar graph corresponding to Without-Hopping use:
+   1. Color “red”
+   2. Width of “0.30”
+   3. Edge color “black”
+5. For the bar graph corresponding to With-Hopping use:
+   1. Color “green”
+   2. Use width of “0.30”
+   3. Use hatch as “//”
+   4. Edge color “black”
+6. For the line graph corresponding to Without-Interference use:
+   1. Color “blue”
+   2. Marker “x”
+   3. Linestyle “dashed”
+   4. Make sure that the markersize is set to 9
+   5. Set the markeredgewidth to 2
+   6. Make sure that the line width is set to 2
+7. Labels should be with the exact name as the corresponding column name.
+8. The max value for y-axis should be set to 70
+9. The legend should be displayed at location (0.25, 0.70)
+10. Labels for x,y should be: “WiFi inter-packet gap (ms)” and “Throughput (Kbps)”
+11. Display the grid.
+12. Code should save the figure as “output3.png”
+
+
+Note: Make sure the two bar columns are side by side with equal width and the x-ticks should be at the center of the two bars.
+      

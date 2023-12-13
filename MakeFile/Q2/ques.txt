@@ -1,0 +1,6 @@
+        Use all same c files created in previous question
+Mute all the commands so that there should be no output on the console.
+Now use a pattern rule in your Makefile for converting any .c file to a .o file; also make a rule to generate the executable file programEntry from all the .o files
+Check that the modified Makefile works as expected with the earlier three .c files
+Now add a fourth .c file (name: subtraction.c). Check that the SAME Makefile as above (with the pattern rule) works to generate subtraction.o and programEntry
+      

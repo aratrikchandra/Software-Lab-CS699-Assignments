@@ -1,0 +1,5 @@
+Question 8
+        8)
+Optional : Ignoring the columns with names "SNo" and "Sel", the remaining columns represent the various written test scores. For each written test, compute the number of candidates who attempted the test. Also compute the number of candidates who attempted the test, from among the top 20% of candidates, and among the bottom 40% of the candidates. Use a "map" over OverallM, top20pM, bot40pM to achieve this.
+What you are expected to learn: looping through dictionary, writing appropriate function for map
+      

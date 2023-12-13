@@ -1,0 +1,27 @@
+Question 2
+        Use sed command to do this exercise. If you are not using the sed command to do this you will get zero marks.
+
+
+You joined as a manager in GCEB bank. On your very first day you find out that the previous manager has mistakenly reversed all the credit card numbers present in his system. Well, his mess up did cost him the job, but unfortunately, you have been tasked to clean the mess. Using your Watson-like skills in finding patterns and manual observation, you see that somehow, only the numbers containing 4 space-separated segments with 4 digits each got reversed and the remaining data is the same. Your task is to use a sed command which reverse’s only 4 space-separated segments with 4 digits each and the remaining data should be the same as previous to get the correct account number and all the data after all operations should be written to a new file named output.txt.
+
+
+For Example:
+If input.txt contains: 2999 5178 9101 2234 
+output should have: 2234 9101 5178 2999 
+
+
+Note:
+1) The maximum number of segments present in the sample input will only be 4 and exactly 4 digits
+are there in each segment.
+2) take input and output files as argument
+3) sample input.txt and output.txt are provided for reference. 
+4) Each row has at least one segment containing 4 digits.
+5) Remove extra space if available at the end of the line in the input file.
+
+
+To execute the script:
+./GCEB_bank.sh input.txt output.txt
+
+
+Here, Sample input and output files are provided for your reference.
+      

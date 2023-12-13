@@ -1,0 +1,58 @@
+body{
+	background-image: url("https://i.ibb.co/wKqgfSW/background.jpg");
+	font-family: "Times New Roman";
+	font-size: 18px;
+	color: white;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+.backImage{
+	background-image: url("https://i.ibb.co/f8HcsfC/pic100.jpg");
+	height: 100%;
+	position: fixed;
+	scroll-behavior: smooth;
+	list-style: none;
+	width:15%;
+}
+
+
+
+#logo{
+	width: 70px;
+	height:70px;
+	margin-top: 40%;
+	margin-left: 30%;
+	
+}
+
+#contact-me{
+	background-image: url("https://i.ibb.co/f8HcsfC/pic100.jpg");
+}
+
+.contact{
+	font-family:'Courier New', Courier, monospace,Arial, Helvetica, sans-serif;
+}
+.container{
+	margin: auto;
+	width: 60%;
+}
+  
+footer {
+	margin-top: auto;
+  }
+  
+.nav-link{
+	transition: 0.3s;
+}
+.nav-link:hover {
+	border-left: 4px solid #ffffff;
+	border-right: 4px solid #ffffff;
+	background: #eba434;
+  }
+
+.highlight{
+	font-family:'Times New Roman', Times, serif;
+	background-color: #fc039d;
+}

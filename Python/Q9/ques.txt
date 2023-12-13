@@ -1,0 +1,8 @@
+Question 9
+        9)
+Optional: We now want to compute the correlation between the total marks and the final selection (post interview).
+First read up and refresh your memory on what correlation means. In this process, you'll also read up on average, variance, standard deviation, and covariance.
+Write the following functions: average, variance, standard deviation, covariance, correlation. Write these functions in the above order. The first three will take one list as argument, while the last two will take two lists as argument. Use list comprehensions in writing the functions (you can write each function in not more than 2 lines). Use "zip" for writing the covariance function.
+What you are expected to learn: list comprehensions, zip function
+Now use the correlation function, with the appropriately constructed lists as arguments, to compute the correlation between the total marks and the final selection of the candidate
+      

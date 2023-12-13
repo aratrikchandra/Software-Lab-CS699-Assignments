@@ -1,0 +1,11 @@
+        For each of the exercises in this lab, you should use the file names as given in the solution template.
+
+Some of the solutions may be available online, even in the tutorials provided as references. But you are advised to code them from scratch (no cut-paste) for understanding. Any cut-paste will be detrimental to your learning and will affect your performance in exams for sure.
+
+Toy exercises to get warmed up:
+a. count-lines.l Write a lex file to count the number of lines in the input.
+b. count-lwc.l Write a lex file to count the number of lines, words, and characters in the input. A word is contiguous string of alphanumeric characters (alphabets and numbers only). Note that this definition is different from that used by the 'wc' program. 
+c. count-num.l Write a lex file to count the number of numbers appearing in the input. Count the number of integers (without a decimal) separately from the number of floating point numbers (with a decimal, and at least one digit on either side of the decimal). 
+
+What you learn: basic lex syntax, regular expressions in lex, defining symbols for regular expressions, compiling and running
+      

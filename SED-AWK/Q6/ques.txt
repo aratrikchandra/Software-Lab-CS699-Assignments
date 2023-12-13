@@ -1,0 +1,22 @@
+Question 6
+        1. Study the format of the file /etc/sample.txt which stores information about various user accounts. Write an awk script to swap the second and third column of the file.
+Note : After swapping the columns, each field should be space separated in the output.
+The Sample Input File is -
+UserID	Name	Designation	loginShell
+10001	ajay	manager	/bin/false
+1001	sunil	clerk		/bin/false
+101	varun	manager	Valid
+60123	amit	manager	/bin/false
+401	tarun	peon		Valid
+
+And after running the script the output should be - 
+UserID Designation Name loginShell
+10001 manager ajay /bin/false
+1001 clerk sunil /bin/false
+101 manager varun Valid
+60123 manager amit /bin/false
+401 peon tarun Valid
+
+	
+	Usage : ./swap_accounts.awk sample.txt
+      
